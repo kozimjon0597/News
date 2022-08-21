@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News</string>
+    <string name="title_home">Дом</string>
+    <string name="title_category">Категория</string>
+    <string name="title_bookmark">Закладка</string>
+    <string name="title_user">Пользователь</string>
+    <string name="desc_home">Откройте для себя вещи этого мира</string>
+    <string name="search">Поиск</string>
+    <string name="recommended_for_you">Рекомендуется для вас</string>
+    <string name="see_all">Увидеть все</string>
+    <string name="desc_category">Тысячи статей в каждой категории</string>
+    <string name="desc_bookmark">Сохраненные статьи в библиотеку</string>
+    <string name="settings">Настройки</string>
+    <string name="light_mode">Легкий режим</string>
+    <string name="language">Язык</string>
+    <string name="first_to_know">Первый, кто узнает</string>
+    <string name="desc_first_fragment">Все новости в одном месте, узнавайте последние новости первыми</string>
+    <string name="next">Следующий</string>
+    <string name="desc_second_fragment">Все новости в одном месте, узнавайте последние новости первыми</string>
+    <string name="title_three_fragment">Выберите ваши любимые темы</string>
+    <string name="desc_three_fragment">Выберите некоторые из ваших любимых тем, чтобы мы предложили вам лучшие новости.</string>
+</resources>

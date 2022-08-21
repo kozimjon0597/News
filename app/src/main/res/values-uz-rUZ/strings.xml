@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News</string>
+    <string name="title_home">Asosiy</string>
+    <string name="title_category">Kategoriya</string>
+    <string name="title_bookmark">Saqlanganlar</string>
+    <string name="title_user">Profil</string>
+    <string name="desc_home">Bu dunyodagi narsalarni kashf eting</string>
+    <string name="search">Qidirmoq</string>
+    <string name="recommended_for_you">Tavsiya etiladi</string>
+    <string name="see_all">Hammasi</string>
+    <string name="desc_category">Har bir toifadagi minglab maqolalar</string>
+    <string name="desc_bookmark">Maqolalar kutubxonaga saqlangan</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="light_mode">Yorqin rejimi</string>
+    <string name="language">Til</string>
+    <string name="first_to_know">Birinchi boʻlib bilish</string>
+    <string name="desc_first_fragment">Barcha yangiliklar bir joyda, so\'nggi yangiliklardan birinchi bo\'lib xabardor bo\'ling</string>
+    <string name="next">Keyingi</string>
+    <string name="desc_second_fragment">Barcha yangiliklar bir joyda, so\'nggi yangiliklardan birinchi bo\'lib xabardor bo\'ling</string>
+    <string name="title_three_fragment">Sevimli mavzularingizni tanlang</string>
+    <string name="desc_three_fragment">Sizga yaxshiroq yangiliklarni taklif qilishimiz uchun sevimli mavzularingizdan bir nechtasini tanlang.</string>
+</resources>

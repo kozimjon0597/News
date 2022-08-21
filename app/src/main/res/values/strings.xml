@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="title_user">User</string>
+    <string name="desc_home">Discover things of this world</string>
+    <string name="search">Search</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="see_all">See All</string>
+    <string name="desc_category">Thousands of articles in each category</string>
+    <string name="desc_bookmark">Saved articles to the library</string>
+    <string name="settings">Settings</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="language">Language</string>
+    <string name="first_to_know">First to know</string>
+    <string name="desc_first_fragment">All news in one place, be the first to know last news</string>
+    <string name="next">Next</string>
+    <string name="desc_second_fragment">All news in one place, be the first to know last news</string>
+    <string name="title_three_fragment">Select your favorite topics</string>
+    <string name="desc_three_fragment">Select some of your favorite topics to let us suggest better news for you.</string>
+</resources>

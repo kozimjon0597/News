@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="uz.kozimjon.news.fragment.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="uz.kozimjon.news.fragment.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/action_secondFragment_to_threeFragment2"
+            app:destination="@id/threeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/threeFragment"
+        android:name="uz.kozimjon.news.fragment.ThreeFragment"
+        android:label="fragment_three"
+        tools:layout="@layout/fragment_three">
+        <action
+            android:id="@+id/action_threeFragment_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/mobile_navigation"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="uz.kozimjon.news.fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_detail_fragment"
+            app:destination="@id/detail_fragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_firstFragment"
+            app:destination="@id/firstFragment"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_navigation_home_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="uz.kozimjon.news.fragment.CategoryFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/navigation_bookmark"
+        android:name="uz.kozimjon.news.fragment.BookmarkFragment"
+        android:label="@string/title_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_navigation_bookmark_to_detail_fragment"
+            app:destination="@id/detail_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="uz.kozimjon.news.fragment.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_user">
+        <action
+            android:id="@+id/action_navigation_user_to_languageFragment"
+            app:destination="@id/languageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="uz.kozimjon.news.fragment.DetailFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="categoryName"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="image"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="desc"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="content"
+            app:argType="string"
+            app:nullable="true"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="uz.kozimjon.news.fragment.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language"/>
+
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="uz.kozimjon.news.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_detail_fragment"
+            app:destination="@id/detail_fragment" />
+    </fragment>
+
+
+</navigation>
